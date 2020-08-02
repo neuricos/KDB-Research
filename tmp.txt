@@ -1,0 +1,19 @@
+
+=> heavily depending on the number of rows
+
+
+
+trades:("DIISFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF";enlist ",") 0:`:2019.06.03.csv
+
+
+
+number of cols: 10 + 100 = 110
+number of rows: 1000000
+size: 2.05GB
+time to import from csv: 36.589s
+time to calculate: 0.162s
+time to export: 0.909s
+time to import hdb: 0.353s
+
+problem not sorted
+`date xasc trades

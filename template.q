@@ -1,0 +1,1 @@
+trades : ([] date:`date$() ; time:`timespan$() ; ticker:`symbol$() ; op:`float$() ; cp:`float$() ; hp:`float$() ; lp:`float$() ; volume:`long$() ; amount:`float$())
